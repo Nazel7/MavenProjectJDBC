@@ -17,8 +17,7 @@
   <url>http://www.example.com</url>
 
   <properties>
-    <springframework.version>5.2.8.RELEASE</springframework.version>
-    <springsecurity.version>5.2.5.RELEASE</springsecurity.version>
+
 
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 

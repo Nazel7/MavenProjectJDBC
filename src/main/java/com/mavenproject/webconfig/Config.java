@@ -20,7 +20,7 @@ import java.util.logging.Logger;
 @EnableWebMvc
 @ComponentScan(basePackages = "com.mavenproject")
 @PropertySource("classpath:persistence-mysql.properties")
-public class Config {
+public class  Config {
     @Autowired
     private Environment env;
 
