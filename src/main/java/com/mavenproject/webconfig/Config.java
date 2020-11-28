@@ -54,8 +54,8 @@ public class  Config {
 //            DataSource threadPool Setup
         securityDataSource.setInitialPoolSize(Integer.parseInt((env.getProperty("connection.pool.initialPoolSize"))));
         securityDataSource.setMinPoolSize(Integer.parseInt((env.getProperty("connection.pool.minPoolSize"))));
-        securityDataSource.setInitialPoolSize(Integer.parseInt((env.getProperty("connection.pool.maxPoolSize"))));
-        securityDataSource.setInitialPoolSize(Integer.parseInt((env.getProperty("connection.pool.maxIdleTime"))));
+        securityDataSource.setMaxPoolSize(Integer.parseInt((env.getProperty("connection.pool.maxPoolSize"))));
+        securityDataSource.setMaxIdleTime(Integer.parseInt((env.getProperty("connection.pool.maxIdleTime"))));
 
         return securityDataSource;
     }
